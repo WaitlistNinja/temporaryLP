@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+}
+
+.countdown {
+    margin-top: 40px;
+}
+
+.countdown span {
+    font-size: 2em;
+    color: #555;
+    margin: 0 10px;
+}
+
+.subscribe-form {
+    margin-top: 40px;
+}
+
+.logo {
+    max-width: 400px;
+    margin-bottom: -20px;
+}
